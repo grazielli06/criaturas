@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Amuleto Perdido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>O Desafio do Amuleto Perdido</h1>
+        <p>Ajude os aventureiros a encontrar o amuleto respondendo às perguntas corretamente!</p>
+    </header>
+
+    <main>
+        <section id="game">
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <button class="answer" id="option1" onclick="checkAnswer(1)"></button>
+                <button class="answer" id="option2" onclick="checkAnswer(2)"></button>
+            </div>
+            <div id="feedback"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 O Desafio do Amuleto Perdido. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
